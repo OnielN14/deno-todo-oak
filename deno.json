@@ -1,0 +1,7 @@
+{
+    "importMap": "imports.json",
+    "tasks": {
+        "start": "deno run --allow-env=HOSTNAME,PORT --allow-write=. --allow-read=. --allow-net server.ts",
+        "watch": "deno run --allow-env=HOSTNAME,PORT --allow-write=. --allow-read=. --allow-net --watch server.ts"
+    }
+}
